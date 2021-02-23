@@ -1,9 +1,3 @@
 div.container {
   margin: 10px;
 }
-
-@media only screen and (max-width: 320px) {
-  div.container {
-    margin: 10px;
-  }
-}
