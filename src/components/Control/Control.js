@@ -1,26 +1,20 @@
 import React from "react";
-import {
-  HiOutlinePlusCircle,
-  HiOutlineDotsCircleHorizontal,
-} from "react-icons/hi";
 import "./Control.css";
+import { BsShuffle } from "react-icons/bs";
+import { FiRepeat } from "react-icons/fi";
 const Control = () => {
   return (
-    <div className="control">
-      <div className="plus">
-        <HiOutlinePlusCircle color="white" className="plus__svg" />
-      </div>
-      <div className="title">
-        <div className="title__title">
-          <h3>Feeling Lonely</h3>
+    <div className="controller">
+      <div className="buttons">
+        <div className="shuffle">
+          <BsShuffle className="shuffle__svg" color="white" />
         </div>
-        <div className="title__sub">
-          <h4>boy pablo</h4>
+        <div className="repeat">
+          <FiRepeat className="repeat__svg" color="white" />
         </div>
       </div>
-      <div className="dots">
-        <HiOutlineDotsCircleHorizontal color="white" className="dots__svg" />
-      </div>
+      <div className="control"></div>
+      <div className="volume"></div>
     </div>
   );
 };
