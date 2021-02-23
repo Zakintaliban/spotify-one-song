@@ -1,0 +1,48 @@
+.title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.plus {
+  width: 20px;
+  height: 20px;
+  margin: auto 0px;
+}
+
+.plus__svg {
+  width: 20px;
+  height: 20px;
+}
+
+.dots {
+  width: 20px;
+  height: 20px;
+  margin: auto 0px;
+}
+
+.dots__svg {
+  width: 20px;
+  height: 20px;
+}
+
+.title__container {
+  color: #fff;
+  text-align: center;
+  font-family: spotify-circular, spotify-circular-cyrillic,
+    spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica,
+    arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+}
+
+.title__title h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.title__sub h4 {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px;
+}
