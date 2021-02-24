@@ -1,0 +1,46 @@
+.controller {
+  display: flex;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10vh;
+  width: auto;
+}
+.control {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.vol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.prev__svg {
+  width: 30px;
+  height: 30px;
+}
+
+.play__svg {
+  width: 50px;
+  height: 50px;
+}
+
+.next__svg {
+  width: 30px;
+  height: 30px;
+}
+
+.vol__svg {
+  width: 20px;
+  height: 20px;
+}
