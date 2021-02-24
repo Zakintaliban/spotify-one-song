@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   color: #fff;
-  margin: 0 10px;
+  margin: 0rem 0.625rem;
 }
 
 .timer-end,
