@@ -2,7 +2,7 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-  margin: 10px 0px;
+  margin: 0.625rem 0rem;
 }
 
 .dropdown {
