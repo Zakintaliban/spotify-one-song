@@ -1,26 +1,28 @@
-.header {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  margin: 0.625rem 0rem;
-}
+@media only screen and (max-width: 425px) {
+  .header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0.625rem 0rem;
+  }
 
-.dropdown {
-  width: 20px;
-  height: 20px;
-}
+  .dropdown {
+    width: 20px;
+    height: 20px;
+  }
 
-.dropdown__svg {
-  width: 20px;
-  height: 20px;
-}
+  .dropdown__svg {
+    width: 20px;
+    height: 20px;
+  }
 
-.list {
-  width: 20px;
-  height: 20px;
-}
+  .list {
+    width: 20px;
+    height: 20px;
+  }
 
-.list__svg {
-  width: 20px;
-  height: 20px;
+  .list__svg {
+    width: 20px;
+    height: 20px;
+  }
 }
